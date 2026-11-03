@@ -21,7 +21,8 @@ To view the document locally, keep the XML and CSS files in the same folder and 
 - **Places and dates:** The ten states named are marked with `<location>`. The excepted parishes and counties are not marked. Dates are marked with `<date>`.
 - **Supplied text:** The closing parenthesis that the National Archives supplies in brackets is in `<span class="supplied">`.
 - **Highlight:** The words "are, and henceforward shall be free" are in `<span class="landmark">`. The emphasis is editorial and is not in the original.
-- **Closing lines:** The transcription prints "By the President: ABRAHAM LINCOLN" and then "WILLIAM H. SEWARD, Secretary of State." On the original, Lincoln signs first, and "By the President:" introduces Seward. The XML follows the original.
+- **Closing lines:** The transcription prints "By the President: ABRAHAM LINCOLN" and then "WILLIAM H. SEWARD, Secretary of State." On the original, Lincoln signs first, and "By the President:" introduces Seward. The XML follows the original in this one respect; the words are the transcription's.
+- **Identifiers:** Every element with an `eId` also has a `GUID`. Text-level `<p>` elements have neither.
 - **Images:** The seal and the two signatures are images embedded in `<img>` elements. Browsers do not draw Akoma Ntoso `<img>` elements, so the CSS repeats them as backgrounds. The signature images have had the paper removed, and the seal has a soft edge.
 
 ## Sources
